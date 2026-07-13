@@ -1,34 +1,196 @@
 # Zynxis Mobile App Development Internship
 
-This repository contains the tasks, logic documentation, and deliverables completed during my 2-Month Task-Based Mobile App Development Internship at Zynxis. The project structure tracks my progression from UI foundations to advanced application state management, live API integrations, and local databases.
+This repository contains the tasks, logic documentation, and deliverables completed during my **2-Month Task-Based Mobile App Development Internship at Zynxis**.
 
- 📅 Roadmap & Project Breakdown
+Throughout the internship, I progressed from learning Flutter fundamentals and UI design to implementing navigation, state management, REST API integration, local databases, and Firebase. Each week's work is organized into separate folders to showcase my learning journey and project progression.
 
-🔹 Month 1: UI Foundations & Navigation
-Week 1: Environment & Hello World
-    *Set up the Flutter SDK / Android Studio environment.
-    *Developed the "Zynxis Welcome App" featuring a custom logo, company bio, and interactive contact buttons.
-Week 2: Layouts & Styling
-    *Recreated the Zynxis landing page as a mobile UI (Home, About, Services).
-    *Applied deep UI layout structures using Rows, Columns, Stacks, and Containers wrapped in a professional charcoal/slate       grey dark theme.
-Week 3: Interactive Components
-    *Built a "Task Manager" screen utilizing user-input TextFields, completion Checkboxes, Sliders, and interactive system        alerts/snackbars.
-Week 4: Multi-Page Navigation
-    *Developed a 3-page flow: Splash Screen ➡️ Login Page ➡️ Dashboard.
-    *Implemented data-passing logic to securely transfer the "Username" string across views.
+---
 
-🔹 Month 2: Advanced Logic & Real-World API
-Week 5: State Management
-    *Explored architecture-level state management (Provider / Bloc / Riverpod).
-    *Created a "Counter & Theme Switcher" app with persistent tab states.
-    *Week 6: API Integration (REST)
-    *Connected the application to a live backend (JSONPlaceholder / GitHub API) to fetch and render a list of "Zynxis             Projects" dynamically into a ListView.
-Week 7: Local Storage & Firebase
-    *Implemented a "Favorites" feature backed by local persistence (SQLite / SharedPreferences) and cloud storage via             Firebase to ensure robust offline functionality.
-    *Week 8: Final Capstone – Zynxis Intern Portal
-    *A comprehensive, mini "Intern Portal" application consolidating the profile view, persistent task lists, and a "Submit       Report" form feeding data into a mock backend.
+## Internship Roadmap
 
- 📂 Directory Structure
+## Month 1 — UI Foundations & Navigation
+
+### Week 1 — Environment Setup & Welcome App
+
+#### Objectives
+
+- Set up Flutter SDK and Android Studio
+- Configure the development environment
+- Understand the Flutter project structure
+
+#### Project
+
+Zynxis Welcome App
+
+#### Features
+
+- Company logo
+- Company bio
+- Interactive contact buttons
+- Basic Flutter widgets
+
+---
+
+### Week 2 — Layouts & Styling
+
+#### Objectives
+
+- Learn Flutter layouts
+- Build responsive user interfaces
+- Practice widget composition
+
+#### Project
+
+Zynxis Landing Page
+
+#### Pages
+
+- Home
+- About
+- Services
+
+#### Concepts Covered
+
+- Row
+- Column
+- Stack
+- Container
+- Padding
+- Alignment
+- Responsive layouts
+- Custom charcoal/slate grey dark theme
+
+---
+
+### Week 3 — Interactive Components
+
+#### Project
+
+Task Manager
+
+#### Features
+
+- TextField input
+- Task completion using Checkboxes
+- Sliders
+- SnackBars
+- Alert Dialogs
+- Interactive user experience
+
+---
+
+### Week 4 — Multi-Page Navigation
+
+#### Project
+
+Navigation Flow
+
+```text
+Splash Screen
+      ↓
+Login Page
+      ↓
+Dashboard
+```
+
+#### Concepts Covered
+
+- Navigation routes
+- Passing data between screens
+- Username transfer
+- Navigation stack
+
+---
+
+## Month 2 — Advanced Flutter Development
+
+### Week 5 — State Management
+
+#### Topics Explored
+
+- Provider
+- Bloc
+- Riverpod
+
+#### Project
+
+Counter & Theme Switcher
+
+#### Features
+
+- Counter
+- Dark/Light theme switching
+- Persistent tab state
+- State management architecture
+
+---
+
+### Week 6 — REST API Integration
+
+#### Project
+
+Zynxis Projects Explorer
+
+#### API Sources
+
+- JSONPlaceholder
+- GitHub API
+
+#### Features
+
+- Fetch live data
+- Parse JSON
+- Dynamic ListView
+- Loading indicators
+- Error handling
+
+---
+
+### Week 7 — Local Storage & Firebase
+
+#### Project
+
+Favorites Manager
+
+#### Technologies
+
+- SQLite
+- SharedPreferences
+- Firebase
+
+#### Features
+
+- Save favorites locally
+- Offline persistence
+- Cloud synchronization
+- Database operations
+
+---
+
+### Week 8 — Final Capstone Project
+
+#### Project
+
+Zynxis Intern Portal
+
+A Flutter application combining everything learned during the internship.
+
+#### Features
+
+- User Profile
+- Persistent Task Manager
+- Submit Report Form
+- Mock Backend Integration
+- Local Storage
+- Navigation
+- State Management
+
+---
+
+## Repository Structure
+
+```text
+.
 ├── Week1_Setup_WelcomeApp/
 ├── Week2_UI_Layouts/
 ├── Week3_Interactions/
@@ -37,3 +199,60 @@ Week 7: Local Storage & Firebase
 ├── Week6_API_Integration/
 ├── Week7_Database_Storage/
 └── Week8_Final_Capstone_Project/
+```
+
+---
+
+## Technologies Used
+
+- Flutter
+- Dart
+- Android Studio
+- Firebase
+- SQLite
+- SharedPreferences
+- REST APIs
+- Git
+- GitHub
+
+---
+
+## Learning Outcomes
+
+Throughout this internship, I gained practical experience with:
+
+- Flutter fundamentals
+- Responsive UI design
+- Navigation between screens
+- State management
+- REST API integration
+- Local database management
+- Firebase integration
+- Mobile application architecture
+- Clean project organization
+
+---
+
+## Repository Purpose
+
+This repository serves as:
+
+- A record of my internship progress
+- A portfolio showcasing my Flutter development skills
+- A collection of weekly assignments and projects
+- A demonstration of my growth from beginner to intermediate Flutter development
+
+---
+
+## Author
+
+Amna Israr Khan
+
+- BS Computer Science Student
+- Aspiring Flutter Developer
+
+---
+
+## License
+
+This repository is intended for educational and portfolio purposes.
