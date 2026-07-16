@@ -1,33 +1,63 @@
 <div align="center">
 
-# 📱 Zynxis Welcome App
-### Week 1 — Environment Setup & Hello World
-**Zynxis Mobile App Development Internship**
+# 🚀 Zynxis Mobile App Development Internship
+### 2-Month Task-Based Internship — Complete Submission Repository
 
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
+![Android Studio](https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white)
+
+**Intern:** Amna Israr Khan
+**Domain:** Mobile Development
+**Duration:** 2 Months (8 Weeks)
+**Type:** Task-Based
 
 </div>
 
 ---
 
-## 📋 Overview
+## 📖 About This Repository
 
-The **Zynxis Welcome App** is the first deliverable of the Zynxis Mobile Development Internship. It introduces the Zynxis brand through a clean, dark-themed welcome screen — built entirely with **Flutter** and tested on Android.
+This repository contains all weekly deliverables for the **Zynxis Mobile App Development Internship**. Each week builds on the previous one — starting from basic Flutter setup and UI, progressing through interactivity, navigation, state management, live APIs, and local storage, and culminating in a final capstone app that combines everything learned.
+
+All apps are built with **Flutter (Dart)**, developed in **Android Studio**, and tested on Android (emulator and/or physical device).
 
 ---
 
-## ✨ Features
+## 🗂️ Repository Structure
 
-| Feature | Description |
-|---|---|
-| 🖼️ Logo Display | Zynxis logo rendered at the top of the screen |
-| 📝 Company Bio | A short description introducing Zynxis |
-| 📞 Contact Us | A button that opens a dialog with email & phone contact info |
-| 🎨 Custom Theme | Dark charcoal/slate color scheme throughout |
-| 🛡️ Graceful Fallback | Falls back to a placeholder icon if the logo asset fails to load |
+```
+AmnaIsrarKhan_Zynxis_Mobile_Dev_Internship/
+├── Week1_Setup_WelcomeApp/          ✅ Environment & Hello World
+├── Week2_UI_Layouts/                ✅ Layouts & Styling
+├── Week3_Interactions/              🔜 Interactive Components
+├── Week4_Navigation_Logic/          🔜 Multi-Page Navigation
+├── Week5_State_Management/          🔜 State Management
+├── Week6_API_Integration/           🔜 API Integration (REST)
+├── Week7_Database_Storage/          🔜 Local Storage & Firebase
+├── Week8_Final_Capstone_Project/    🔜 Zynxis Intern Portal
+└── README.md                        📄 This file
+```
+
+---
+
+## 📅 Progress Overview
+
+<div align="center">
+
+| Week | Task | Focus Area | Status |
+|:---:|---|---|:---:|
+| 1 | Environment & Hello World | Flutter setup, basic UI, custom widgets | ✅ Complete |
+| 2 | Layouts & Styling | Row / Column / Stack / Container, theming | ✅ Complete |
+| 3 | Interactive Components | TextFields, Checkboxes, Sliders, Snackbars | 🔜 Upcoming |
+| 4 | Multi-Page Navigation | Splash → Login → Dashboard, data passing | 🔜 Upcoming |
+| 5 | State Management | Provider, persistent state across tabs | 🔜 Upcoming |
+| 6 | API Integration (REST) | Live data fetching, error handling | 🔜 Upcoming |
+| 7 | Local Storage & Firebase | Favorites feature, data persistence | 🔜 Upcoming |
+| 8 | Final Capstone Project | Full Intern Portal app | 🔜 Upcoming |
+
+</div>
 
 ---
 
@@ -37,70 +67,51 @@ The **Zynxis Welcome App** is the first deliverable of the Zynxis Mobile Develop
 |---|---|
 | Framework | Flutter (Dart) |
 | IDE | Android Studio |
+| Version Control | Git & GitHub |
 | Platform | Android |
-| Test Device | Android Emulator — Medium Phone (Android 17, "CinnamonBun") |
+| State Management | Provider *(from Week 5 onward)* |
+| Networking | `http` package *(from Week 6 onward)* |
+| Local Storage | `shared_preferences` *(from Week 7 onward)* |
 
 ---
 
-## 📂 Project Structure
+## 🚀 How to Run Any Week's Project
 
-```
-week1_setup_welcomeapp/
-├── android/                 # Native Android project files
-├── assets/
-│   └── images/
-│       └── zynxis_logo.png  # App logo asset
-├── lib/
-│   └── main.dart            # Main application code (UI + logic)
-├── test/                    # Default Flutter test folder
-├── pubspec.yaml             # Dependencies & asset declarations
-└── README.md                # Project documentation
-```
+Each week folder is a **standalone Flutter project**. To run any of them:
 
----
-
-## 🚀 How to Run
-
-**1. Install prerequisites**
-- [Flutter SDK](https://docs.flutter.dev/get-started/install) added to your system PATH
-- Android Studio with the Flutter & Dart plugins installed
-
-**2. Get dependencies**
 ```bash
+cd Week<N>_<FolderName>/<project_folder>
 flutter pub get
-```
-
-**3. Connect a device**
-Plug in a physical Android phone with USB debugging enabled, *or* launch an Android emulator from Android Studio's Device Manager.
-
-**4. Run the app**
-```bash
 flutter run
 ```
-Or simply click the green **▶ Run** button in Android Studio.
+
+Or open the specific week's folder directly in Android Studio and click the green **▶ Run** button, with a device or emulator connected.
 
 ---
 
-## 🎨 Color Palette
+## 🎨 Design Language
+
+All apps in this repository share a consistent dark, professional look:
 
 | Color | Hex | Usage |
 |---|---|---|
-| ⬛ Background | `#1E1E24` | Screen background |
-| 🌑 Card / Primary | `#2C2F38` | Dialog & surface backgrounds |
-| 🔵 Accent | `#4A90E2` | Buttons & highlights |
+| ⬛ Background | `#1B1D22` / `#1E1E24` | Base screen background |
+| 🌑 Surface / Card | `#2A2D35` / `#2C2F38` | Cards, app bars, dialogs |
+| 🔵 Accent | `#4A90E2` | Buttons, highlights, active states |
 
 ---
 
-## 📦 Deliverables
+## 📌 Weekly Folder Contents
 
-- ✅ App screenshots (Welcome screen + Contact Us dialog)
-- ✅ Full source code
-- ✅ This README
+Each week's folder includes:
+- ✅ Full Flutter source code
+- ✅ Screenshots / screen recordings as specified in that week's task
+- ✅ A dedicated `README.md` explaining that week's build
 
 ---
 
 <div align="center">
 
-**Built with 💙 for the Zynxis Internship Program**
+**Built with 💙 as part of the Zynxis Mobile Development Internship Program**
 
 </div>
