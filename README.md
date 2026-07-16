@@ -1,51 +1,106 @@
-# Week 1 — Environment Setup & "Zynxis Welcome App"
+<div align="center">
 
-## Overview
-This is the Week 1 deliverable for the Zynxis Mobile App Development Internship.
-It is a Flutter application called Zynxis Welcome App, built and tested on a physical/emulated Android device using Android Studio.
+# 📱 Zynxis Welcome App
+### Week 1 — Environment Setup & Hello World
+**Zynxis Mobile App Development Internship**
 
-## Features
-- Zynxis company logo displayed at the top of the screen
-- A short company bio describing Zynxis
-- A "Contact Us" button that opens a dialog showing the company's email and phone number
-- Custom dark charcoal/slate theme applied across the app
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
 
-## Tech Stack
-- Framework: Flutter (Dart)
-- IDE: Android Studio
-- Platform: Android
-- Testing device: Android Emulator (Medium Phone, Android 17 "CinnamonBun")
+</div>
 
-## Project Structure
+---
+
+## 📋 Overview
+
+The **Zynxis Welcome App** is the first deliverable of the Zynxis Mobile Development Internship. It introduces the Zynxis brand through a clean, dark-themed welcome screen — built entirely with **Flutter** and tested on Android.
+
+---
+
+## ✨ Features
+
+| Feature | Description |
+|---|---|
+| 🖼️ Logo Display | Zynxis logo rendered at the top of the screen |
+| 📝 Company Bio | A short description introducing Zynxis |
+| 📞 Contact Us | A button that opens a dialog with email & phone contact info |
+| 🎨 Custom Theme | Dark charcoal/slate color scheme throughout |
+| 🛡️ Graceful Fallback | Falls back to a placeholder icon if the logo asset fails to load |
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Tool |
+|---|---|
+| Framework | Flutter (Dart) |
+| IDE | Android Studio |
+| Platform | Android |
+| Test Device | Android Emulator — Medium Phone (Android 17, "CinnamonBun") |
+
+---
+
+## 📂 Project Structure
+
 ```
 week1_setup_welcomeapp/
-├── android/              # Native Android project files
+├── android/                 # Native Android project files
 ├── assets/
 │   └── images/
-│       └── zynxis_logo.png
+│       └── zynxis_logo.png  # App logo asset
 ├── lib/
-│   └── main.dart         # Main application code (UI, logic)
-├── test/                 # Default Flutter test folder
-├── pubspec.yaml          # Project dependencies & asset declarations
-└── README.md             # This file
+│   └── main.dart            # Main application code (UI + logic)
+├── test/                    # Default Flutter test folder
+├── pubspec.yaml             # Dependencies & asset declarations
+└── README.md                # Project documentation
 ```
 
-## How to Run
-1. Make sure the [Flutter SDK](https://docs.flutter.dev/get-started/install) is installed and added to your PATH.
-2. Open this project folder in **Android Studio** (with the Flutter/Dart plugins installed).
-3. Connect a physical Android device (with USB debugging enabled) or start an Android emulator.
-4. Run the following commands from the project root, or simply click the **Run ▶** button in Android Studio:
-   ```
-   flutter pub get
-   flutter run
-   ```
-5. The app will launch showing the Zynxis welcome screen. Tap "Contact Us" to view contact details.
+---
 
-## Deliverables Included
-- Screenshots of the app running on a device (Welcome screen + Contact Us dialog)
-- This README
-- Full source code
+## 🚀 How to Run
 
-## Notes
-- The app uses `Image.asset` with an `errorBuilder` fallback, so if the logo asset is ever missing or fails to load, a placeholder icon is shown instead of crashing the app.
-- Theme colors: background `#1E1E24`, card/primary `#2C2F38`, accent button `#4A90E2`.
+**1. Install prerequisites**
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) added to your system PATH
+- Android Studio with the Flutter & Dart plugins installed
+
+**2. Get dependencies**
+```bash
+flutter pub get
+```
+
+**3. Connect a device**
+Plug in a physical Android phone with USB debugging enabled, *or* launch an Android emulator from Android Studio's Device Manager.
+
+**4. Run the app**
+```bash
+flutter run
+```
+Or simply click the green **▶ Run** button in Android Studio.
+
+---
+
+## 🎨 Color Palette
+
+| Color | Hex | Usage |
+|---|---|---|
+| ⬛ Background | `#1E1E24` | Screen background |
+| 🌑 Card / Primary | `#2C2F38` | Dialog & surface backgrounds |
+| 🔵 Accent | `#4A90E2` | Buttons & highlights |
+
+---
+
+## 📦 Deliverables
+
+- ✅ App screenshots (Welcome screen + Contact Us dialog)
+- ✅ Full source code
+- ✅ This README
+
+---
+
+<div align="center">
+
+**Built with 💙 for the Zynxis Internship Program**
+
+</div>
