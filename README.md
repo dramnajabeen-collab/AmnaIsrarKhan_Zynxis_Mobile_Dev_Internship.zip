@@ -31,12 +31,12 @@ All apps are built with **Flutter (Dart)**, developed in **Android Studio**, and
 AmnaIsrarKhan_Zynxis_Mobile_Dev_Internship/
 ├── Week1_Setup_WelcomeApp/          ✅ Environment & Hello World
 ├── Week2_UI_Layouts/                ✅ Layouts & Styling
-├── Week3_Interactions/              🔜 Interactive Components
-├── Week4_Navigation_Logic/          🔜 Multi-Page Navigation
-├── Week5_State_Management/          🔜 State Management
-├── Week6_API_Integration/           🔜 API Integration (REST)
-├── Week7_Database_Storage/          🔜 Local Storage & Firebase
-├── Week8_Final_Capstone_Project/    🔜 Zynxis Intern Portal
+├── Week3_Interactions/              ✅ Interactive Components
+├── Week4_Navigation_Logic/          ✅ Multi-Page Navigation
+├── Week5_State_Management/          ✅ State Management
+├── Week6_API_Integration/           ✅ API Integration (REST)
+├── Week7_Database_Storage/          ✅ Local Storage & Firebase
+├── Week8_Final_Capstone_Project/    ✅ Zynxis Intern Portal
 └── README.md                        📄 This file
 ```
 
@@ -50,12 +50,12 @@ AmnaIsrarKhan_Zynxis_Mobile_Dev_Internship/
 |:---:|---|---|:---:|
 | 1 | Environment & Hello World | Flutter setup, basic UI, custom widgets | ✅ Complete |
 | 2 | Layouts & Styling | Row / Column / Stack / Container, theming | ✅ Complete |
-| 3 | Interactive Components | TextFields, Checkboxes, Sliders, Snackbars | 🔜 Upcoming |
-| 4 | Multi-Page Navigation | Splash → Login → Dashboard, data passing | 🔜 Upcoming |
-| 5 | State Management | Provider, persistent state across tabs | 🔜 Upcoming |
-| 6 | API Integration (REST) | Live data fetching, error handling | 🔜 Upcoming |
-| 7 | Local Storage & Firebase | Favorites feature, data persistence | 🔜 Upcoming |
-| 8 | Final Capstone Project | Full Intern Portal app | 🔜 Upcoming |
+| 3 | Interactive Components | TextFields, Checkboxes, Sliders, Snackbars | ✅ Complete |
+| 4 | Multi-Page Navigation | Splash → Login → Dashboard, data passing | ✅ Complete |
+| 5 | State Management | Provider, persistent state across tabs | ✅ Complete |
+| 6 | API Integration (REST) | Live data fetching, error handling | ✅ Complete |
+| 7 | Local Storage & Firebase | Favorites feature, data persistence | ✅ Complete |
+| 8 | Final Capstone Project | Full Intern Portal app | ✅ Complete |
 
 </div>
 
